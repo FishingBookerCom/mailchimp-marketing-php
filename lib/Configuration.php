@@ -47,6 +47,7 @@ use MailchimpMarketing\Api\TemplateFoldersApi;
 use MailchimpMarketing\Api\TemplatesApi;
 use MailchimpMarketing\Api\VerifiedDomainsApi;
 
+#[AllowDynamicProperties]
 class Configuration
 {
     private static $defaultConfiguration;
