@@ -19,6 +19,7 @@
 
 namespace MailchimpMarketing;
 
+use AllowDynamicProperties;
 use MailchimpMarketing\Api\AccountExportApi;
 use MailchimpMarketing\Api\AccountExportsApi;
 use MailchimpMarketing\Api\ActivityFeedApi;
@@ -46,7 +47,6 @@ use MailchimpMarketing\Api\SurveysApi;
 use MailchimpMarketing\Api\TemplateFoldersApi;
 use MailchimpMarketing\Api\TemplatesApi;
 use MailchimpMarketing\Api\VerifiedDomainsApi;
-use AllowDynamicProperties;
 
 #[AllowDynamicProperties]
 class Configuration
